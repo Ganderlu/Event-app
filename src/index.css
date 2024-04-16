@@ -1,0 +1,110 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  --bs-primary: #435585;
+  --bs-primary-rgb: 67, 85, 133;
+  --bs-secondary: #435585;
+  --bs-secondary-rgb: 67, 84, 132;
+  --bs-light: #F5E8C7;
+  --bs-light-rgb: 245, 232, 199;
+  --bs-body-bg: #F5E8C7;
+  --bs-body-bg-rgb: 245, 232, 199;
+  --bs-dark: #363062;
+  --bs-dark-rgb: 54, 48, 98;
+  --bs-body-color: #363062;
+  --bs-body-color-rgb: 54, 48, 99;
+}
+
+* {
+  font-size: 1rem;
+}
+
+a {
+  font-weight: 500;
+  color: inherit;
+  text-decoration: inherit;
+}
+a:hover {
+  color: #535bf2;
+}
+
+body {
+  margin: 0;
+  background: #f5e8c7;
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+
+button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #1a1a1a;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+button:hover {
+  border-color: #646cff;
+}
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+
+input[type='date']:before {
+  content: attr(placeholder) !important;
+  color: #aaa;
+  margin-right: 0.5em;
+}
+
+input[type='date']:focus:before,
+input[type='date']:valid:before {
+  content: '';
+}
+
+label {
+  cursor: pointer;
+}
+
+::placeholder {
+  font-size: 0.9rem;
+}
+
+input:focus,
+input {
+  font-size: 1rem;
+}
+
+.my-card {
+  background: whitesmoke;
+}
+
+.btn-primary {
+      --bs-btn-color: whitesmoke;
+    --bs-btn-bg:var(--bs-primary);
+    --bs-btn-border-color: var(--bs-primary);
+    --bs-btn-hover-color: var(--bs-light);
+    --bs-btn-hover-bg: var(--bs-primary);
+    --bs-btn-hover-border-color: var(--bs-primary);
+    --bs-btn-focus-shadow-rgb: 49,132,253;
+    --bs-btn-active-color: var(--bs-light);
+    --bs-btn-active-bg: var(--bs-primary);
+    --bs-btn-active-border-color: var(--bs-primary);
+    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+    --bs-btn-disabled-color: var(--bs-light);
+    --bs-btn-disabled-bg: var(--bs-primary);
+    --bs-btn-disabled-border-color: var(--bs-primary);
+}
